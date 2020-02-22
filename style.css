@@ -42,3 +42,55 @@ body {
             	font-size: 1.5em;
             	transition: 0.5s;
             }
+            .shorttitle {
+                background-color: #813232;
+                width: 250px;
+                text-align: center;
+                transition: 1s;
+                margin-left: auto;
+                margin-right: auto;
+                color: white;
+
+            }
+            .shorttitle:hover {
+                background-color: #5925E6;
+                color:gray;
+                transition: 0.5s;
+
+            }
+            a:link {
+                text-decoration: none;
+                color: #4CD719;
+            }
+            a:visited {
+                color: #0F641B;
+            }
+            a:hover {
+             color: #0A4612;
+            }
+            .menu {
+                background-color: #8BEFCE;
+                border: 5px;
+                color: gray;
+                padding: 10px;
+                text-align: center;
+                width: 100%;
+                height: 30px;
+                vertical-align: center;
+            }
+            .menu a {
+                color: #1A8A8A;
+                text-align: center;
+                border-radius: 1px;
+                
+            }
+            .menu a:hover {
+                
+                transition: 0.5s;
+                color: #59A4EF;
+
+            }
+            .menu td:hover {
+                background-color: #59EFBD;
+                color: gray;
+            }
