@@ -1,0 +1,44 @@
+body {
+        		font-family: "BPG Banner ExtraSquare Caps", sans-serif;
+        		background-color: #78A6F7;
+        	}
+            .photo {
+            	border-radius: 20px;
+                width:200px;
+                transition:1s;
+            }
+            .photo:hover {
+            	border-radius: 5px;
+                 width:340px;
+                 transition:0.5s;
+            }
+            strong {
+                
+                color:blue;
+            }
+            em {
+                color:brown;
+            }
+            #titl {
+            	font-family: "Hokkaido";
+            	color: white;
+            	transition: 1s;
+            	background-color: #68A0FF; 
+
+            }
+            #titl:hover {
+            	color: #DBDBDB;
+            	transition: 0.5s;
+            }
+            .ul{
+            	font-style: italic;
+            	color: #8E0E28;
+            }
+            li {
+            	font-size: 1em;
+            	transition: 1s;
+            }
+            li:hover {
+            	font-size: 1.5em;
+            	transition: 0.5s;
+            }
